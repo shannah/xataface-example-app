@@ -1,0 +1,16 @@
+{
+  "name": "xataface/example-app",
+  "type": "template",
+  "description": "Example Xataface Application",
+  "keywords": ["template"],
+  "homepage": "https://xataface.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Steve Hannah",
+      "email": "steve@weblite.a",
+      "homepage": "https://sjhannah.com",
+      "role": "Developer"
+    }
+  ]
+}
