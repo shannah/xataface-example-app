@@ -1,0 +1,4 @@
+RedirectMatch 404 ".*\.ini"
+RedirectMatch 404 "templates_c"
+RedirectMatch 404 "install"
+RedirectMatch 404 ".*\.ini"

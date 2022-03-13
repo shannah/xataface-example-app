@@ -12,5 +12,8 @@
       "homepage": "https://sjhannah.com",
       "role": "Developer"
     }
-  ]
+  ],
+  "require" : {
+    "xataface/xataface" : "3.0.2"
+  }
 }
