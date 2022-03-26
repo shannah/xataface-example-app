@@ -3,7 +3,7 @@ __include__=conf.db.ini.php
 
 ; Define the menu items in the tables menu
 [_tables]
-    test=test
+    dashboard=dashboard
 
 ;-----------------------------------------------------
 ; Authentication Settings

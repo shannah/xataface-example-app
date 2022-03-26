@@ -1,7 +1,7 @@
 <?php
 class conf_Installer {
-    function update_1() {
-        $sql[] = "create table users (
+    function update_2() {
+        $sql[] = "create table if not exists users (
             username VARCHAR(100) NOT NULL,
             password VARCHAR(64) NOT NULL,
             email VARCHAR(255) NOT NULL,
@@ -16,14 +16,17 @@ class conf_Installer {
             ENGINE=MyISAM
             ";
 
-        $sql[] = "insert into users (
+        $sql[] = "insert into users VALUES (
             'admin',
             SHA1('password'),
             'admin@example.com',
             'ADMIN',
             NOW(),
-            NOW()
+            NOW(),
             1)";
+        $sql[] = "create table dashboard (dashboard_id INT(11) auto_increment PRIMARY KEY) ENGINE=MyISAM";
+        df_q($sql);
 
     }
+
 }
