@@ -4,3 +4,4 @@ vendor
 composer.lock
 templates_c/*
 !templates_c/.htaccess
+conf.db.ini.php
