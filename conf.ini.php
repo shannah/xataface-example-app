@@ -1,6 +1,10 @@
 ;<?php exit;
 __include__=conf.db.ini.php
 
+; Dashboard table should use the dashboard action as its
+; default action
+default_action.dashboard=dashboard
+
 ; Define the menu items in the tables menu
 [_tables]
     dashboard=dashboard
