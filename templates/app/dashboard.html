@@ -1,6 +1,13 @@
 {use_macro file="Dataface_Main_Template.html"}
-    {fill_slot name="h1"}Hello World{/fill_slot}
+    {fill_slot name="h1"}<h1>Welcome to your Xataface app!</h1>{/fill_slot}
     {fill_slot name="main_section"}
-        <h2>Welcome to your Xataface app!</h2>
+        <h3>Essential Links</h3>
+
+        <ul>
+            <li><a href="https://www.xataface.com/docs">Docs</a></li>
+            <li><a href="https://github.com/shannah/xataface/discussions">Forum</a></li>
+            {if $smarty.env.PMA_PORT}<li><a href="http://localhost:{$smarty.env.PMA_PORT|escape}">phpMyAdmin</a></li>{/if}
+        </ul>
+
     {/fill_slot}
 {/use_macro}

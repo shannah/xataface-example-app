@@ -1,5 +1,13 @@
 <?php
+/**
+ * Xataface "Installer" class handles database migrations between versions.
+ * See https://shannah.github.io/xataface-manual/#_application_versioning_and_synchronization
+ */
 class conf_Installer {
+
+    /**
+     * Migration to run when updating to version 2.
+     */
     function update_2() {
         $sql[] = "create table if not exists users (
             username VARCHAR(100) NOT NULL,

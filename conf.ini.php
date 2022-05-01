@@ -7,7 +7,7 @@ default_action.dashboard=dashboard
 
 ; Define the menu items in the tables menu
 [_tables]
-    dashboard=dashboard
+    dashboard=Dashboard
 
 ;-----------------------------------------------------
 ; Authentication Settings
