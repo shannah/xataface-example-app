@@ -27,5 +27,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Ping Packagist
-        run: curl -XPOST -H'content-type:application/json' "https://packagist.org/api/update-package?username=shannah&apiToken=${{secrets.PACKAGIST_API_KEY}}" -d'{"repository":{"url":"xataface/example-app"}}'
+        run: curl -XPOST -H'content-type:application/json' "https://packagist.org/api/update-package?username=shannah&apiToken=${{secrets.PACKAGIST_API_KEY}}" -d'{"repository":{"url":"https://packagist.org/packages/xataface/example-app"}}'
       
