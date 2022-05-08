@@ -8,18 +8,12 @@
   "authors": [
     {
       "name": "Steve Hannah",
-      "email": "steve@weblite.a",
+      "email": "steve@weblite.ca",
       "homepage": "https://sjhannah.com",
       "role": "Developer"
     }
   ],
   "require" : {
     "xataface/xataface" : "dev-master"
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/shannah/xataface.git"
-    }
-  ]
+  }
 }
